@@ -1,5 +1,5 @@
 <template>
-  <CtCard title="Novedades" width="600" class="mx-auto">
+  <CtCard title="Emprendimiento" width="600" class="mx-auto">
     <v-row dense>
       <CtBtn color="primary" to="/registro" class="mt-4 mx-auto">
         Registro gratuito

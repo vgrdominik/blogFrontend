@@ -77,12 +77,16 @@
         style="width: 300px"
         class="ml-0 pl-4"
       >
-        <CtBtn type="text" color="white" to="/">Reservar tareas</CtBtn>
+        <CtBtn type="text" color="white" to="/">Blog de Valentí Gàmez</CtBtn>
       </v-toolbar-title>
       <v-spacer />
 
       <CtBtn type="text" color="white" href="https://valentigamez.com">
         Sobre mi
+      </CtBtn>
+      |
+      <CtBtn type="text" color="white" href="http://reservas.valentigamez.com">
+        Reservas
       </CtBtn>
       |
       <template v-if="user">
@@ -117,7 +121,7 @@
         </v-card-text>
 
         <v-card-text class="white--text pt-0">
-          En esta plataforma podrás reservar reuniones, tareas y proyectos al programador Valentí Gàmez.
+          En este blog podrás seguir las reflexiones del programador Valentí Gàmez.
         </v-card-text>
 
         <v-divider></v-divider>
@@ -143,7 +147,8 @@ export default {
     dialog: false,
     drawer: null,
     items: [
-      { icon: ['fas', 'calendar-alt'], text: 'Reservas', path: '/reservas' },
+      { icon: ['fas', 'calendar-alt'], text: 'Emprendimiento', path: '/emprendimiento' },
+      { icon: ['fas', 'calendar-alt'], text: 'Día a día', path: '/dia-a-dia' },
     ],
     footerItems: [
       {

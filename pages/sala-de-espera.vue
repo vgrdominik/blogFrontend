@@ -2,7 +2,7 @@
     <CtCard title="Sala de espera" width="300" class="mx-auto">
       <v-row dense>
         <v-col cols="12" class="mt-5">
-          En breves momentos serás redirigido hacia la página de reservas.
+          En breves momentos serás redirigido hacia la página de emprendimiento.
         </v-col>
         <v-col cols="12" class="mt-5">
           <v-row>
@@ -12,8 +12,8 @@
           </v-row>
         </v-col>
         <v-col cols="12" class="my-5">
-          <CtBtn to="/reservas" type="accent" block>
-            Ir a reservas
+          <CtBtn to="/emprendimiento" type="accent" block>
+            Ir a emprendimiento
           </CtBtn>
         </v-col>
       </v-row>
@@ -23,7 +23,7 @@
 <script>
 export default {
   mounted() {
-    setTimeout(() => this.$router.push({ path: '/reservas' }), 3000)
+    setTimeout(() => this.$router.push({ path: '/emprendimiento' }), 3000)
   }
 }
 </script>

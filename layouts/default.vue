@@ -147,8 +147,9 @@ export default {
     dialog: false,
     drawer: null,
     items: [
-      { icon: ['fas', 'calendar-alt'], text: 'Emprendimiento', path: '/emprendimiento' },
-      { icon: ['fas', 'calendar-alt'], text: 'Día a día', path: '/dia-a-dia' },
+      { icon: ['fas', 'asterisk'], text: 'Emprendimiento', path: '/emprendimiento' },
+      { icon: ['fas', 'asterisk'], text: 'Día a día', path: '/dia-a-dia' },
+      { icon: ['fas', 'asterisk'], text: 'Programación', path: '/programacion' },
     ],
     footerItems: [
       {

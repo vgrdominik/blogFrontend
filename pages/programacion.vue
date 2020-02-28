@@ -1,5 +1,5 @@
 <template>
-  <CtCard title="Novedades" width="600" class="mx-auto">
+  <CtCard title="Programación" width="600" class="mx-auto">
     <v-row dense>
       <v-col cols="12" class="mt-5">
         <v-card color="primary" dark>
@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import CtBtn from "../components/CtBtn";
 export default {
+  components: {CtBtn}
 }
 </script>
